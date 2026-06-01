@@ -1,6 +1,6 @@
 import { defineConfig } from 'sanity'
 import { structureTool } from 'sanity/structure'
-import { schemaTypes } from './schemas/index.js'
+import { schemaTypes } from './index.js'
 
 export default defineConfig({
   name: 'rguard',
